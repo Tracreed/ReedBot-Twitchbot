@@ -1,9 +1,9 @@
 var irc = require('irc');
 var moment = require('moment');
 
-var client = new irc.Client('irc.twitch.tv', 'ReedBot', {
+var client = new irc.Client('irc.twitch.tv', 'Your-nick', {
 	channels: ['#channel-name'],
-	password: 'oauth:fcordflerf34f7ouc7t6mdlyx6gzchh'
+	password: 'oauth:'
 });
 // this is the module that tells you time
 var now = moment();
