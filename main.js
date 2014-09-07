@@ -2,7 +2,7 @@ var irc = require('irc');
 var moment = require('moment');
 
 var client = new irc.Client('irc.twitch.tv', 'ReedBot', {
-	channels: ['#tracreed', '#stretchmyjerky'],
+	channels: ['#channel-name'],
 	password: 'oauth:fcordflerf34f7ouc7t6mdlyx6gzchh'
 });
 // this is the module that tells you time
